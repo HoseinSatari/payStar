@@ -14,23 +14,16 @@ git clone https://github.com/HoseinSatari/payStar.git
 cd payStar
 
 
-3. Install the dependencies:
-
-npm install
-livecodeserver
-
-
-4. Configure the project:
+3. Configure the project:
 - Copy the `.env.example` file and rename it to `.env`.
 - Update the necessary configuration values in the `.env` file.
 
-5. Run the project:
+4. Run the project:
 
-npm start
-livecodeserver
+php artisan serve 
 
 
-6. Access the project in your web browser at `http://localhost:3000`.
+5. Access the project in your web browser at `http://localhost:8000`.
 
 ## About
 
