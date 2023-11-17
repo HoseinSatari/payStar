@@ -4,7 +4,9 @@ use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
 return [
-
+    "api_url" => "https://core.paystar.ir",
+    "reserved_order_time" => 30,
+    "reserved_transaction_time_paystar" => 10,
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -16,7 +18,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'PayStar'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +44,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -70,7 +72,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Tehran',
 
     /*
     |--------------------------------------------------------------------------

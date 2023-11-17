@@ -17,7 +17,9 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->boolean('is_active')->default(1);
             $table->rememberToken();
+            // More fields could be placed here, but I didn't think it was necessary to include them in this small project
             $table->timestamps();
         });
     }

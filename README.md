@@ -1,6 +1,6 @@
 # PayStar TestProject - Hossein Sattari
 
-A simple store project to perform payment operations in Paystar.
+A simple store for testing payment APIs in Paystar.
 
 ## Steps to use this project
 
@@ -18,16 +18,23 @@ cd payStar
 - Copy the `.env.example` file and rename it to `.env`.
 - Update the necessary configuration values in the `.env` file.
 
-4. Run the project:
+
+5. Installation requirements:
+- composer install 
+- npm install
+
+5. Run the project:
 
 php artisan serve 
 
 
-5. Access the project in your web browser at `http://localhost:8000`.
+6. Access the project in your web browser at `http://localhost:8000`.
 
 ## About
 
 This project is a simple store application that allows performing payment operations in Paystar.
+
+*Note: In this project, the focus has been on the payment service.*
 
 ## License
 
